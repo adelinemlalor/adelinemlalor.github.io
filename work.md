@@ -50,3 +50,81 @@ permalink: /work/
 - Created a scalable event sponsorship ROI model from lead conversion and co-funding data, standardizing conference KPIs. The model led to 2.5× average ROI and full budget renewal.
 - Directed three reseller partners in co-marketing campaigns, aligning messaging, assets, and KPIs to drive 175 leads, $900K pipeline, and 40% greater partner funding.
 - Led eight engineers and marketers in an IBM partner Cloud Storage Education Series; used feedback to refine curriculum and technical depth, achieving 100% quarter-over-quarter growth and 60% certification rates.
+
+## Selected Projects
+
+<div class="project-card-list">
+  <article class="project-card" aria-labelledby="project-plg-title">
+    <h3 id="project-plg-title">Enterprise Product-Led Growth Strategy &amp; Research Hub</h3>
+    <dl class="project-card__meta">
+      <div>
+        <dt>Role</dt>
+        <dd>Sr. Product &amp; Solution Marketing Manager, MBA Intern (AI &amp; App Development)</dd>
+      </div>
+      <div>
+        <dt>Organization</dt>
+        <dd>ServiceNow</dd>
+      </div>
+    </dl>
+    <p class="project-card__description">Defined ServiceNow’s product-led growth motion for its agentic developer portfolio through 22 interviews and a 17-platform benchmark. Mapped nine blockers across an eight-stage activation funnel, recommended an install-base-first pilot with Build Agent as the wedge, and created an interactive hub for 12 reports. The SVP used the research in an executive presentation to build support for PLG.</p>
+    <h4 class="project-card__skills-heading">Skills</h4>
+    <ul class="project-skills">
+      <li>Strategy formulation</li>
+      <li>Research design</li>
+      <li>Competitive benchmarking</li>
+      <li>Funnel and friction mapping</li>
+      <li>Metrics definition</li>
+      <li>Information architecture</li>
+      <li>Executive communication</li>
+    </ul>
+  </article>
+
+  <article class="project-card" aria-labelledby="project-signal-hub-title">
+    <h3 id="project-signal-hub-title">Product Signal Hub</h3>
+    <dl class="project-card__meta">
+      <div>
+        <dt>Role</dt>
+        <dd>Product Manager Intern</dd>
+      </div>
+      <div>
+        <dt>Organization</dt>
+        <dd>RevReply</dd>
+      </div>
+    </dl>
+    <p class="project-card__description">Built a Lovable and Supabase platform that pulls Jira tickets every six hours and scrapes competitor pages with Firecrawl. Claude clusters 63+ signals into about 40 product issues, and GPT ranks them by revenue exposure; the work surfaced $600K ARR at risk across about 13 enterprise accounts. Deliverables included a dashboard, weekly report, AI PM chat agent, and 16-page build and roadmap report.</p>
+    <h4 class="project-card__skills-heading">Skills</h4>
+    <ul class="project-skills">
+      <li>Problem definition</li>
+      <li>Data modeling</li>
+      <li>Full-stack prototyping</li>
+      <li>AI system design</li>
+      <li>Prioritization frameworks</li>
+      <li>Jira and Supabase integration</li>
+      <li>Executive communication</li>
+    </ul>
+  </article>
+
+  <article class="project-card" aria-labelledby="project-talkthrough-title">
+    <h3 id="project-talkthrough-title">TalkThrough — Asynchronous Voice Interview Platform</h3>
+    <dl class="project-card__meta">
+      <div>
+        <dt>Role</dt>
+        <dd>Creator and Builder (self-initiated, during my ServiceNow MBA internship)</dd>
+      </div>
+      <div>
+        <dt>Organization</dt>
+        <dd>ServiceNow</dd>
+      </div>
+    </dl>
+    <p class="project-card__description">Built a voice-first app that lets interviewees respond by voice or text on their own time; its Compare view synthesizes themes, agreements, and contradictions. In the pilot, 16 of 22 invited sellers completed interviews (73%), and their input informed competitive battlecards published to SalesCoach. Later scoped a merge with a colleague’s tool and handed off the codebase and backend logic.</p>
+    <h4 class="project-card__skills-heading">Skills</h4>
+    <ul class="project-skills">
+      <li>Problem identification</li>
+      <li>Rapid prototyping</li>
+      <li>User-centered design</li>
+      <li>Design tradeoffs</li>
+      <li>AI-assisted synthesis</li>
+      <li>Productization and handoff</li>
+    </ul>
+  </article>
+</div>
