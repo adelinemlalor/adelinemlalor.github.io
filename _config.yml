@@ -1,6 +1,6 @@
 title: Adeline Lalor
 description: Product marketing and product management across AI, developer tools, and go-to-market strategy.
-url: "https://adelinelalor.github.io"
+url: "https://adelinemlalor.github.io"
 baseurl: ""
 lang: en-US
 timezone: America/Los_Angeles
@@ -10,17 +10,17 @@ markdown: kramdown
 email: adeline.lalor@berkeley.edu
 additional_email: adelinemlelor@gmail.com
 linkedin_url: "https://www.linkedin.com/in/adelinelalor/"
-github_username: adelinelalor
+github_username: adelinemlalor
 
 author:
   name: Adeline Lalor
-  url: "https://adelinelalor.github.io"
+  url: "https://adelinemlalor.github.io"
 
 social:
   name: Adeline Lalor
   links:
     - "https://www.linkedin.com/in/adelinelalor/"
-    - "https://github.com/adelinelalor"
+    - "https://github.com/adelinemlalor"
 
 navigation:
   - title: Home

@@ -1,7 +1,7 @@
 # Portfolio site plan — Adeline Lalor
 
 ## Site
-- Publish a static Jekyll GitHub user site at https://adelinelalor.github.io from the repository root on `main`; keep `baseurl` empty and use Jekyll URL filters.
+- Publish a static Jekyll GitHub user site at https://adelinemlalor.github.io from the repository root on `main`; keep `baseurl` empty and use Jekyll URL filters.
 - Create Home, About, Work Experience, and Contact pages in Markdown with YAML front matter, shared layouts/includes, site navigation, and a footer.
 - Keep the project root itself publish-ready: `index.md`, `_config.yml`, `_layouts/`, `_includes/`, styles/assets, sitemap support, favicon, and README.
 
@@ -15,6 +15,6 @@
 - Include README instructions for editing content, local preview, and Lighthouse. Check root structure, Jekyll build, navigation, and layouts at 375px and 1280px; target Lighthouse scores of at least 90 in all four categories.
 
 ## Assumptions
-- The connected GitHub username is `adelinelalor`; the site URL is therefore `https://adelinelalor.github.io`.
+- The GitHub username is `adelinemlalor`; the site URL is therefore `https://adelinemlalor.github.io`.
 - The reference is a visual direction only, not a request to copy Squarespace. A restrained, high-contrast palette and system fonts avoid external font dependencies.
 - The LinkedIn URL is a link only; no LinkedIn content will be fetched. There is no separate About paragraph supplied, so any short introduction will be limited to facts in the résumé.

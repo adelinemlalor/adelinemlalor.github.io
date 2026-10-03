@@ -1,6 +1,6 @@
 # Adeline Lalor — Portfolio
 
-A static Jekyll site for the GitHub user site `adelinelalor.github.io`. The site is designed to publish directly from the `main` branch and repository root through GitHub Pages.
+A static Jekyll site for the GitHub user site `adelinemlalor.github.io`. The site is designed to publish directly from the `main` branch and repository root through GitHub Pages.
 
 ## Update the site
 
@@ -33,7 +33,7 @@ The site avoids third-party fonts, trackers, and client-side frameworks to keep 
 
 ## Publish with GitHub Pages
 
-1. Create or use a GitHub repository named `adelinelalor.github.io`.
+1. Create or use a GitHub repository named `adelinemlalor.github.io`.
 2. Push the contents of this repository to its `main` branch.
 3. In the repository’s **Settings → Pages**, choose **Deploy from a branch**, select `main`, and select `/(root)`.
 
