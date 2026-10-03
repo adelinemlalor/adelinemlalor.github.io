@@ -18,4 +18,4 @@ For opportunities, product conversations, or a quick introduction, email is the 
   <p>Both addresses are public on the site. Selecting one opens your email app.</p>
 </div>
 
-You can also find me on [LinkedIn]({{ site.linkedin_url }}).
+You can also find me on <a href="{{ site.linkedin_url }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
