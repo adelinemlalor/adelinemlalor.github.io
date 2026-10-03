@@ -1,20 +1,33 @@
-modules = ["nodejs-24"]
-
-[deployment]
-router = "application"
-deploymentTarget = "autoscale"
-
-[deployment.postBuild]
-args = ["pnpm", "store", "prune"]
-env = { "CI" = "true" }
+modules = ["ruby-3.2", "python-base-3.13", "nodejs-24"]
 
 [workflows]
 runButton = "Project"
 
-[agent]
-stack = "PNPM_WORKSPACE"
-expertMode = true
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
 
-[postMerge]
-path = "scripts/post-merge.sh"
-timeoutMs = 20000
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Jekyll preview"
+
+[[workflows.workflow]]
+name = "Jekyll preview"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "bundle exec jekyll serve --host 0.0.0.0 --port 3000"
+waitForPort = 3000
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[nix]
+channel = "stable-25_05"
+packages = ["ruby_3_2"]
+
+[[ports]]
+localPort = 3000
+externalPort = 80

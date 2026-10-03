@@ -1,0 +1,53 @@
+title: Adeline Lalor
+description: Product marketing and product management across AI, developer tools, and go-to-market strategy.
+url: "https://adelinelalor.github.io"
+baseurl: ""
+lang: en-US
+timezone: America/Los_Angeles
+permalink: pretty
+markdown: kramdown
+
+email: adeline.lalor@berkeley.edu
+additional_email: adelinemlelor@gmail.com
+linkedin_url: "https://www.linkedin.com/in/adelinelalor/"
+github_username: adelinelalor
+
+author:
+  name: Adeline Lalor
+  url: "https://adelinelalor.github.io"
+
+social:
+  name: Adeline Lalor
+  links:
+    - "https://www.linkedin.com/in/adelinelalor/"
+    - "https://github.com/adelinelalor"
+
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Work Experience
+    url: /work/
+  - title: Contact
+    url: /contact/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - PLAN.md
+  - replit.md
+  - .gitignore
+  - .replit
+  - .replitignore
+  - .conversation
+  - .agents
+  - .local
+  - attached_assets
+  - node_modules
+  - vendor

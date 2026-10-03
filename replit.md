@@ -1,45 +1,23 @@
-# [Project name]
+# Adeline Lalor Portfolio
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A static Jekyll portfolio for GitHub Pages, built from Markdown, HTML, CSS, and a small theme-toggle script.
 
-## Run & Operate
+## Project structure
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- `index.md`, `about.md`, `work.md`, `contact.md` — page content and YAML front matter
+- `_layouts/` and `_includes/` — reusable page templates and shared site chrome
+- `assets/css/` and `assets/js/` — styles and minimal theme behavior
+- `_config.yml` — GitHub Pages URL, plugins, metadata, and navigation
 
-## Stack
+## Local preview
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+- `bundle install`
+- `bundle exec jekyll serve`
 
-## Where things live
+The site is intended to publish through GitHub Pages from `main` and the repository root.
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+## Content boundary
 
-## Architecture decisions
-
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
-
-## Product
-
-_Describe the high-level user-facing capabilities of this app once they exist._
-
-## User preferences
-
-_Populate as you build — explicit user instructions worth remembering across sessions._
-
-## Gotchas
-
-_Populate as you build — sharp edges, "always run X before Y" rules._
-
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- Use only résumé and portfolio details the user supplies; the provided LinkedIn URL is a link, not a source to fetch.
+- Keep the repository root as the static Jekyll site. Do not add a separate application, framework, backend, form service, or package manifest.
+- Public mailto links were explicitly provided for the site.
