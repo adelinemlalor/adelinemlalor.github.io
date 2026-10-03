@@ -41,6 +41,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - PLAN.md
+  - Change1.md
   - replit.md
   - .gitignore
   - .replit
