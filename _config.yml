@@ -29,6 +29,9 @@ navigation:
     url: /about/
   - title: Work Experience
     url: /work/
+  - title: Résumé
+    url: /assets/Adeline-Lalor-Resume.pdf
+    target: _blank
   - title: Contact
     url: /contact/
 
@@ -42,6 +45,7 @@ exclude:
   - README.md
   - PLAN.md
   - Change1.md
+  - Change2.md
   - replit.md
   - .gitignore
   - .replit
