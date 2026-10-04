@@ -300,6 +300,18 @@ main {
   text-decoration: none;
 }
 
+.button-link--secondary {
+  border-color: var(--line);
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.button-link--secondary:hover {
+  border-color: var(--accent);
+  background: var(--surface-strong);
+  filter: none;
+}
+
 .subtle-link {
   font-size: 0.92rem;
   font-weight: 650;

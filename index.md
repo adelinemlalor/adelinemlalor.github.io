@@ -10,6 +10,8 @@ permalink: /
     <h1 id="home-title">Making complex products easier to understand—and easier to adopt.</h1>
     <p class="home-hero__lede">I’m Adeline Lalor. My experience spans AI and developer-product strategy, product marketing, and enterprise go-to-market work—from research and positioning to shipped tools and measurable growth.</p>
     <div class="home-hero__actions">
+      <a class="button-link" href="{{ '/assets/Adeline-Lalor-Resume.pdf' | relative_url }}" download="Adeline-Lalor-Resume.pdf">Download résumé</a>
+      <a class="button-link button-link--secondary" href="{{ '/contact/' | relative_url }}">Get in touch</a>
       <a class="button-link" href="{{ '/work/' | relative_url }}">Explore my experience <span aria-hidden="true">↗</span></a>
       <a class="subtle-link" href="{{ '/about/' | relative_url }}">A little about me</a>
     </div>

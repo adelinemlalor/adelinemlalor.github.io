@@ -6,7 +6,7 @@
   <div class="header-actions">
     <nav class="site-nav" aria-label="Main navigation">
       {% for item in site.navigation %}
-        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+        <a href="{{ item.url | relative_url }}"{% if item.target == "_blank" %} target="_blank" rel="noopener noreferrer" aria-label="{{ item.title }} (opens in a new tab)"{% endif %}{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}{% if item.target == "_blank" %}<span aria-hidden="true"> ↗</span>{% endif %}</a>
       {% endfor %}
     </nav>
     <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark theme" aria-pressed="false">
