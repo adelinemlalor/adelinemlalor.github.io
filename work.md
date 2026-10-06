@@ -117,6 +117,10 @@ permalink: /work/
       </div>
     </dl>
     <p class="project-card__description">Built a voice-first app that lets interviewees respond by voice or text on their own time; its Compare view synthesizes themes, agreements, and contradictions. In the pilot, 16 of 22 invited sellers completed interviews (73%), and their input informed competitive battlecards published to SalesCoach. Later scoped a merge with a colleague’s tool and handed off the codebase and backend logic.</p>
+    <div class="project-card__links">
+      <a class="button-link button-link--secondary" href="https://talkthrough.lovable.app/">Visit TalkThrough website</a>
+      <a class="button-link button-link--secondary" href="https://youtu.be/ue7W650I1DU?si=kGxH6MJ5uOhB6c8l">Watch TalkThrough demo on YouTube</a>
+    </div>
     <h4 class="project-card__skills-heading">Skills</h4>
     <ul class="project-skills">
       <li>Problem identification</li>

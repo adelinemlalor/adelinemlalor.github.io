@@ -559,6 +559,22 @@ main {
   margin: 1rem 0 1.25rem;
 }
 
+.project-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 1.15rem 0 1.2rem;
+}
+
+.project-card__links .button-link {
+  max-width: 100%;
+  white-space: normal;
+}
+
+.project-card__links + .project-card__skills-heading {
+  margin-top: 0;
+}
+
 .project-card__skills-heading {
   margin: 1.2rem 0 0.55rem;
   font-size: 0.77rem;
