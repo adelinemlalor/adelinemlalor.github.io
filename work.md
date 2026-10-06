@@ -2,7 +2,7 @@
 layout: page
 title: Work Experience
 eyebrow: Selected roles and outcomes
-description: Product, product marketing, and enterprise go-to-market experience across AI, developer tools, data storage, and cyber resiliency.
+description: Product, product marketing, and enterprise go-to-market experience across AI, developer tools, data storage, and cyber-resiliency.
 permalink: /work/
 ---
 ## ServiceNow
