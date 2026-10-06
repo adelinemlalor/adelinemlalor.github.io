@@ -2,13 +2,13 @@
 layout: page
 title: Work Experience
 eyebrow: Selected roles and outcomes
-description: Product, product marketing, and enterprise go-to-market experience across AI, developer tools, storage, and public-sector technology.
+description: Product, product marketing, and enterprise go-to-market experience across AI, developer tools, data storage, and cyber-resiliency.
 permalink: /work/
 ---
 ## ServiceNow
 
 <div class="role-heading">
-  <h3>Senior Product &amp; Solution Marketing Manager, MBA Intern — AI &amp; App Development</h3>
+  <h3>Senior Product &amp; Solution Marketing Manager, MBA Intern — AI App Development</h3>
   <span class="role-date">May–August 2026</span>
 </div>
 <p class="role-meta">San Francisco, CA</p>
@@ -59,7 +59,7 @@ permalink: /work/
     <dl class="project-card__meta">
       <div>
         <dt>Role</dt>
-        <dd>Sr. Product &amp; Solution Marketing Manager, MBA Intern (AI &amp; App Development)</dd>
+        <dd>Sr. Product &amp; Solution Marketing Manager, MBA Intern (AI App Development)</dd>
       </div>
       <div>
         <dt>Organization</dt>
@@ -109,14 +109,14 @@ permalink: /work/
     <dl class="project-card__meta">
       <div>
         <dt>Role</dt>
-        <dd>Creator and Builder (self-initiated, during my ServiceNow MBA internship)</dd>
+        <dd>Creator and Builder</dd>
       </div>
       <div>
         <dt>Organization</dt>
         <dd>ServiceNow</dd>
       </div>
     </dl>
-    <p class="project-card__description">Built a voice-first app that lets interviewees respond by voice or text on their own time; its Compare view synthesizes themes, agreements, and contradictions. In the pilot, 16 of 22 invited sellers completed interviews (73%), and their input informed competitive battlecards published to SalesCoach. Later scoped a merge with a colleague’s tool and handed off the codebase and backend logic.</p>
+    <p class="project-card__description">TalkThrough is an asynchronous, voice-first interview platform that collects thoughtful answers from busy people without scheduling another meeting. Respondents open a private link and answer structured questions by voice or text, on their own time and in any order, with every response transcribed automatically and stored in one place. Its core differentiator is cross-interview analysis. Because everyone answers the same questions, the Compare view synthesizes multiple interviews at once, surfacing shared themes, points of agreement and disagreement, recurring products and metrics, and suggested follow-up questions. The result turns scattered one-on-one conversations into structured, comparable insight, with less effort for both researchers and respondents.</p>
     <div class="project-card__links">
       <a class="button-link button-link--secondary" href="https://talkthrough.lovable.app/">Visit TalkThrough website</a>
       <a class="button-link button-link--secondary" href="https://youtu.be/ue7W650I1DU?si=kGxH6MJ5uOhB6c8l" target="_blank" rel="noopener noreferrer" aria-label="Watch TalkThrough demo on YouTube (opens in a new tab)">Watch TalkThrough demo on YouTube<span aria-hidden="true"> ↗</span></a>
